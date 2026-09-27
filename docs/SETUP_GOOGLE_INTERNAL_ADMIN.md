@@ -29,12 +29,12 @@ The installer's Google module will automatically guide you through the setup.
 
 **Windows:** Press `Win + R` and run
 ```powershell
-powershell -ep bypass -c "& ([scriptblock]::Create((irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.ps1))) -modules 'google'"
+powershell -ep bypass -c "& ([scriptblock]::Create((irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.ps1))) -modules 'google'"
 ```
 
 **Mac/Linux:** Run in Terminal
 ```bash
-curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google" bash
+curl -fsSL https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google" bash
 ```
 
 After running, select "Admin" → Follow the on-screen instructions to complete setup.
@@ -136,10 +136,10 @@ Hello, here are the Google MCP setup instructions.
 2. Run the installation command below:
 
    Windows: Press Win+R and run the following command
-   powershell -ep bypass -c "& ([scriptblock]::Create((irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.ps1))) -modules 'google'"
+   powershell -ep bypass -c "& ([scriptblock]::Create((irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.ps1))) -modules 'google'"
 
    Mac: Run the following command in Terminal
-   curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google" bash
+   curl -fsSL https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google" bash
 
 3. Select "Employee" in the Google MCP setup
 4. Copy the client_secret.json file to the specified location

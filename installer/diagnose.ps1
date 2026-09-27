@@ -2,9 +2,9 @@
 # ADW Installation Diagnostic Tool (Windows)
 # ============================================
 # Run this if installation failed:
-#   powershell -ep bypass -c "irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/diagnose.ps1 | iex"
+#   powershell -ep bypass -c "irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/diagnose.ps1 | iex"
 
-$BaseUrl = "https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer"
+$BaseUrl = "https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer"
 
 Clear-Host
 Write-Host ""

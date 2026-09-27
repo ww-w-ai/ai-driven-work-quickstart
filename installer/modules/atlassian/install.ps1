@@ -123,7 +123,7 @@ if ($useDocker) {
         if ($PSScriptRoot -and (Test-Path $mcpConfigLocal)) {
             . $mcpConfigLocal
         } else {
-            irm "https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/modules/shared/mcp-config.ps1" | iex
+            irm "https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/modules/shared/mcp-config.ps1" | iex
         }
     }
 
@@ -168,7 +168,7 @@ if (-not (Get-Command Remove-McpProjectBlock -ErrorAction SilentlyContinue)) {
     if ($PSScriptRoot -and (Test-Path $mcpConfigLocal)) {
         . $mcpConfigLocal
     } else {
-        irm "https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/modules/shared/mcp-config.ps1" | iex
+        irm "https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/modules/shared/mcp-config.ps1" | iex
     }
 }
 Remove-McpProjectBlock "atlassian"

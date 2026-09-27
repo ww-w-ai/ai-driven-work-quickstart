@@ -54,7 +54,7 @@ if ($env:INSTALL_ALL -eq "true" -or $env:INSTALL_ALL -eq "1") {
 }
 
 # Base URL for module downloads - GitHub raw (always latest from master)
-$BaseUrl = "https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer"
+$BaseUrl = "https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer"
 
 # For local development, use local files
 # Remote execution sets $MyInvocation.MyCommand.Path to null, so check needed

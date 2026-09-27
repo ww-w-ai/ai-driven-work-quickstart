@@ -23,7 +23,7 @@ GRAY='\033[0;90m'
 NC='\033[0m'
 
 # Base URL for module downloads
-BASE_URL="https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer"
+BASE_URL="https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer"
 
 # Cross-platform JSON parser (FR-S1-03: injection-safe, FR-S2-01: Linux support)
 # Priority: node > python3 > osascript (macOS fallback)

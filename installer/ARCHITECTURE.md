@@ -122,7 +122,7 @@ adw/installer/
 │       └── oauth-helper.sh  # mcp_oauth_flow() for Remote MCP OAuth
 │
 └── (landing page is in a separate repo)
-    # https://github.com/popup-studio-ai/ai-driven-work-landing
+    # https://github.com/ww-w-ai/ai-driven-work-landing
 ```
 
 ---
@@ -134,15 +134,15 @@ adw/installer/
 **Windows (PowerShell):**
 ```powershell
 # Method 1: Pass modules via environment variables (used from Win+R)
-powershell -ep bypass -c "$env:MODULES='google,notion'; irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
+powershell -ep bypass -c "$env:MODULES='google,notion'; irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
 
 # Method 2: Pass as parameters (used from PowerShell)
-& ([scriptblock]::Create((irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.ps1))) -modules 'google,notion'
+& ([scriptblock]::Create((irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.ps1))) -modules 'google,notion'
 ```
 
 **Mac/Linux (Bash):**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google,notion" bash
+curl -fsSL https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google,notion" bash
 ```
 
 ### 2. Main Script Behavior
@@ -183,7 +183,7 @@ On Windows, after native installation, `~/.local/bin` is added to PATH.
 ## Landing Page
 
 The landing page is managed in a **separate repository**:
-- Repo: https://github.com/popup-studio-ai/ai-driven-work-landing
+- Repo: https://github.com/ww-w-ai/ai-driven-work-landing
 - Deployment: Vercel
 - Tech stack: Next.js + TypeScript + Tailwind CSS
 
@@ -237,7 +237,7 @@ Modules are sorted and executed according to the `order` field in `module.json`:
 
 | Item | Hosting | URL |
 |------|---------|-----|
-| **Install scripts** | GitHub Raw | `https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/...` |
+| **Install scripts** | GitHub Raw | `https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/...` |
 | **Landing page** | Vercel | `https://ai-driven-work.vercel.app` |
 
 ---

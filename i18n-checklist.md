@@ -39,7 +39,7 @@ Files containing Korean text that need to be translated or converted to English.
 
 | # | Repo | Action |
 |---|------|--------|
-| 17 | `popup-studio-ai/ai-driven-work-landing` | Add i18n (KO/EN language switcher) |
+| 17 | `ww-w-ai/ai-driven-work-landing` | Add i18n (KO/EN language switcher) |
 
 ## P3: Internal PDCA Documents
 
