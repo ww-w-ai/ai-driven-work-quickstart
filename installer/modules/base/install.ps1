@@ -389,13 +389,13 @@ if ($env:CLI_TYPE -eq "gemini") {
             Write-Host "  Gemini CLI not found. Skipping bkit plugin." -ForegroundColor Yellow
         } else {
             $ErrorActionPreference = "SilentlyContinue"
-            "y" | gemini extensions install https://github.com/popup-studio-ai/bkit-gemini.git 2>$null
+            "y" | gemini extensions install https://github.com/ww-w-ai/bkit-gemini.git 2>$null
             $ErrorActionPreference = "Stop"
             Write-Host "  OK" -ForegroundColor Green
         }
     } catch {
         Write-Host "  bkit plugin install failed: $_" -ForegroundColor Red
-        Write-Host "  Manual install: gemini extensions install https://github.com/popup-studio-ai/bkit-gemini.git" -ForegroundColor Cyan
+        Write-Host "  Manual install: gemini extensions install https://github.com/ww-w-ai/bkit-gemini.git" -ForegroundColor Cyan
     }
 } else {
     Write-Host "[8/8] Installing bkit Plugin..." -ForegroundColor Yellow
@@ -404,7 +404,7 @@ if ($env:CLI_TYPE -eq "gemini") {
             Write-Host "  Claude CLI not found. Skipping bkit plugin." -ForegroundColor Yellow
         } else {
             $ErrorActionPreference = "SilentlyContinue"
-            claude plugin marketplace add popup-studio-ai/bkit-claude-code 2>$null
+            claude plugin marketplace add ww-w-ai/bkit-claude-code 2>$null
             claude plugin install bkit@bkit-marketplace 2>$null
             $ErrorActionPreference = "Stop"
 
@@ -417,7 +417,7 @@ if ($env:CLI_TYPE -eq "gemini") {
         }
     } catch {
         Write-Host "  bkit plugin install failed: $_" -ForegroundColor Red
-        Write-Host "  Manual: claude plugin marketplace add popup-studio-ai/bkit-claude-code" -ForegroundColor Cyan
+        Write-Host "  Manual: claude plugin marketplace add ww-w-ai/bkit-claude-code" -ForegroundColor Cyan
     }
 }
 

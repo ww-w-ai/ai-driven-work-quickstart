@@ -3,9 +3,9 @@
 # ADW Installation Diagnostic Tool (Mac/Linux)
 # ============================================
 # Run this if installation failed:
-#   bash <(curl -sSL https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/diagnose.sh)
+#   bash <(curl -sSL https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/diagnose.sh)
 
-BASE_URL="https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer"
+BASE_URL="https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer"
 
 RED='\033[0;31m'; GREEN='\033[0;32m'; YELLOW='\033[1;33m'
 CYAN='\033[0;36m'; GRAY='\033[0;90m'; NC='\033[0m'

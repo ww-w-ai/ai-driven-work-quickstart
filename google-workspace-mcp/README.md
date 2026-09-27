@@ -12,12 +12,12 @@ Use the ADW installer:
 
 **Windows:** Press `Win + R` and run
 ```
-powershell -ep bypass -c "$env:MODULES='google'; irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
+powershell -ep bypass -c "$env:MODULES='google'; irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
 ```
 
 **Mac/Linux:** Run in terminal
 ```bash
-curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google" bash
+curl -fsSL https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google" bash
 ```
 
 ### Administrators

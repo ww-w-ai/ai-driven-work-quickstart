@@ -13,18 +13,18 @@ https://ai-driven-work.vercel.app
 
 Press `Win + R`, then paste and run the following command:
 ```
-powershell -ep bypass -c "irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
+powershell -ep bypass -c "irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
 ```
 
 Install with modules:
 ```
-powershell -ep bypass -c "$env:MODULES='google,notion'; irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
+powershell -ep bypass -c "$env:MODULES='google,notion'; irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
 ```
 
 ### Windows (Gemini)
 
 ```
-powershell -ep bypass -c "$env:CLI_TYPE='gemini'; irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
+powershell -ep bypass -c "$env:CLI_TYPE='gemini'; irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.ps1 | iex"
 ```
 
 > **Windows**: Modules that require Docker (google, atlassian) need a 2-step installation. The landing page will guide you through this automatically.
@@ -33,18 +33,18 @@ powershell -ep bypass -c "$env:CLI_TYPE='gemini'; irm https://raw.githubusercont
 
 Open a terminal and run the following command:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.sh | bash
 ```
 
 Install with modules:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google,notion" bash
+curl -fsSL https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.sh | MODULES="google,notion" bash
 ```
 
 ### Mac/Linux (Gemini)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/install.sh | CLI_TYPE=gemini bash
+curl -fsSL https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/install.sh | CLI_TYPE=gemini bash
 ```
 
 ---
@@ -82,12 +82,12 @@ If you encounter issues during installation, run the diagnostic tool.
 
 **Windows:**
 ```
-powershell -ep bypass -c "irm https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/diagnose.ps1 | iex"
+powershell -ep bypass -c "irm https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/diagnose.ps1 | iex"
 ```
 
 **Mac/Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/popup-studio-ai/ai-driven-work-quickstart/main/installer/diagnose.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ww-w-ai/ai-driven-work-quickstart/main/installer/diagnose.sh | bash
 ```
 
 It will automatically check your installation environment (Node.js, Docker, permissions, etc.) and report the cause of any issues.
@@ -112,7 +112,7 @@ popup-claude/
 └── README.md
 ```
 
-> The landing page is in a separate repository: https://github.com/popup-studio-ai/ai-driven-work-landing
+> The landing page is in a separate repository: https://github.com/ww-w-ai/ai-driven-work-landing
 
 ---
 
@@ -127,4 +127,4 @@ popup-claude/
 
 ## Need Help?
 
-If you encounter any issues, please reach out via [Issues](https://github.com/popup-studio-ai/ai-driven-work-quickstart/issues).
+If you encounter any issues, please reach out via [Issues](https://github.com/ww-w-ai/ai-driven-work-quickstart/issues).

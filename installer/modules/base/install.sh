@@ -416,11 +416,11 @@ fi
 echo ""
 if [ "$CLI_TYPE" = "gemini" ]; then
     echo -e "${YELLOW}[7/7] Installing bkit Plugin (Gemini)...${NC}"
-    echo "y" | gemini extensions install https://github.com/popup-studio-ai/bkit-gemini.git 2>/dev/null || true
+    echo "y" | gemini extensions install https://github.com/ww-w-ai/bkit-gemini.git 2>/dev/null || true
     echo -e "  ${GREEN}OK${NC}"
 else
     echo -e "${YELLOW}[7/7] Installing bkit Plugin...${NC}"
-    claude plugin marketplace add popup-studio-ai/bkit-claude-code 2>/dev/null || true
+    claude plugin marketplace add ww-w-ai/bkit-claude-code 2>/dev/null || true
     claude plugin install bkit@bkit-marketplace 2>/dev/null || true
 
     if claude plugin list 2>/dev/null | grep -q "bkit"; then
