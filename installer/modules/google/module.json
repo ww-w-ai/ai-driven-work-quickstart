@@ -3,7 +3,7 @@
   "displayName": "Google Workspace",
   "description": "Gmail, Calendar, Drive, Docs, Sheets, Slides access for Claude",
   "version": "1.0.0",
-  "author": "popup-jacob",
+  "author": "popupstudio-hyeonjinkim",
   "required": false,
   "order": 6,
 
@@ -27,6 +27,6 @@
   },
 
   "links": {
-    "docs": "https://github.com/popup-jacob/google-workspace-mcp"
+    "docs": "https://github.com/ww-w-ai/ai-driven-work-quickstart/tree/main/google-workspace-mcp"
   }
 }

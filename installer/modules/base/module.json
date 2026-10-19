@@ -3,7 +3,7 @@
   "displayName": "Base (Claude + bkit)",
   "description": "Node.js, Git, VS Code, Docker, Claude CLI, bkit plugin",
   "version": "1.0.0",
-  "author": "popup-jacob",
+  "author": "popupstudio-hyeonjinkim",
   "required": true,
   "order": 0,
 

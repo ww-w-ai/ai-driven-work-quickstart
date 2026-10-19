@@ -3,7 +3,7 @@
   "displayName": "GitHub CLI",
   "description": "Install and configure GitHub CLI (gh) for repository access",
   "version": "1.0.0",
-  "author": "popup-jacob",
+  "author": "popupstudio-hyeonjinkim",
   "required": false,
   "order": 2,
 

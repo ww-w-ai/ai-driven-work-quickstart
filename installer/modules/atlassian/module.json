@@ -3,7 +3,7 @@
   "displayName": "Atlassian (Jira + Confluence)",
   "description": "View issues, create tasks, search Confluence pages",
   "version": "1.0.0",
-  "author": "popup-jacob",
+  "author": "popupstudio-hyeonjinkim",
   "required": false,
   "order": 5,
 

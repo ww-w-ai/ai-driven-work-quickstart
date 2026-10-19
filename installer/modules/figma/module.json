@@ -3,7 +3,7 @@
   "displayName": "Figma",
   "description": "Read Figma files, inspect designs, extract design tokens",
   "version": "1.0.0",
-  "author": "popup-jacob",
+  "author": "popupstudio-hyeonjinkim",
   "required": false,
   "order": 3,
 
